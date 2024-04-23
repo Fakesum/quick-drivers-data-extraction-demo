@@ -23,7 +23,7 @@ def store_face(image,image_name,x1,y1,x2,y2,acc,class_name):
         output_dir="./api_output"
         folder=create_today_folder(output_dir)
         roi=image[y1:y2,x1:x2]
-        predictionpath=os.path.join(r'C:\Harshil\Study\Semester_2\AI_ML_Lab\Final_Project\Driving_Licence_Extract_API\static',os.path.splitext(image_name)[0]+'_face_output.jpg')
+        predictionpath=os.path.splitext(image_name)[0]+'_face_output.jpg'
         image_name= os.path.basename(predictionpath)
         print(predictionpath)
         cv2.imwrite(predictionpath,roi)

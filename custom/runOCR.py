@@ -2,8 +2,8 @@ import cv2
 import pytesseract
 
 # Adding custom options
-pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-tessdata_dir_config = r'--tessdata-dir "C:\Program Files\Tesseract-OCR\tessdata"'
+# pytesseract.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# tessdata_dir_config = r'--tessdata-dir "C:\Program Files\Tesseract-OCR\tessdata"'
 
 custom_config=r'--psm 11 --oem 3 --tessdata-dir "C:\Program Files\Tesseract-OCR\tessdata"'
 # custom_config= r'--oem 3 --psm 11'

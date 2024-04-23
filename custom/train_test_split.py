@@ -5,11 +5,11 @@ import shutil
 
 import pdb 
 
-image_path =r"C:\Harshil\Study\Semester_2\AI_ML_Lab\DL_Dataset\final_data_v1\images"
-annot_path =r"C:\Harshil\Study\Semester_2\AI_ML_Lab\DL_Dataset\final_data_v1\labels"
+image_path =r"images"
+annot_path =r"labels"
 
-des_image = r"C:\Harshil\Study\Semester_2\AI_ML_Lab\DL_Dataset\final_data_v1\final_images"
-des_annot = r"C:\Harshil\Study\Semester_2\AI_ML_Lab\DL_Dataset\final_data_v1\final_labels"
+des_image = r"final_images"
+des_annot = r"final_labels"
 
 
 files = os.listdir(image_path)
