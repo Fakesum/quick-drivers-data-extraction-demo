@@ -52,7 +52,7 @@ def run(img):
 		ocrdict.clear()
 		dict_cat={}
 		dict_cat.clear()
-		hashvalue= imagehash.average_hash(Image.open(img))
+		hashvalue= imagehash.average_hash(Image.open(open(img, "rb")))
 		image_name=os.path.basename(img)
 		original=cv2.imread(img)
 		image=cv2.imread(img)
